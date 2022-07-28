@@ -1,0 +1,153 @@
+.container {
+  margin: auto;
+  padding: 50px 70px;
+  /* border: solid black; */
+  font-family: orbitron;
+}
+
+.navbar-container,
+.list,
+.button-group {
+  display: inline-flex;
+}
+
+.list {
+  position: relative;
+  left: 140px;
+  bottom: 20px;
+  justify-content: center;
+  list-style: none;
+}
+
+.list-item {
+  margin: auto;
+  padding: 25px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.list-item:first-child {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.button-group {
+  position: relative;
+  left: 350px;
+  justify-items: right;
+  top: 20px;
+}
+.nav-button {
+  margin-left: 10px;
+  font-size: large;
+  padding: 5px 40px;
+  border: solid black 2px;
+  border-radius: 8px;
+  font-family: poppins;
+  font-weight: 300;
+  background-color: #fff;
+}
+
+.hero-container {
+  display: inline-flex;
+}
+
+.square {
+  position: relative;
+  top: 235px;
+  left: 90px;
+}
+
+.person {
+  position: relative;
+  right: 425px;
+  top: 55px;
+}
+
+[alt="person-hero-iamge"] {
+  width: 430px;
+}
+
+.globe {
+  position: absolute;
+  right: 630px;
+  top: 150px;
+}
+
+.star {
+  position: absolute;
+  right: 730px;
+  top: 720px;
+}
+.star img {
+  width: 50px;
+}
+
+.hero-heading {
+  position: absolute;
+  font-size: 50px;
+  right: 100px;
+  top: 250px;
+  /* border: solid black; */
+  word-spacing: 10px;
+}
+
+.hero-description {
+  position: absolute;
+  top: 400px;
+  right: 150px;
+  width: 550px;
+  text-align: center;
+  /* border: solid black; */
+  font-family: poppins;
+  font-size: small;
+  font-weight: 300;
+}
+
+.email-join {
+  position: absolute;
+  top: 550px;
+  right: 300px;
+}
+
+.button-email {
+  margin-right: 15px;
+  border: solid black;
+  border-radius: 8px;
+  padding: 3px 30px;
+  background-color: #fff;
+  font-family: orbitron;
+  font-weight: 400;
+}
+.button-join {
+  border: solid black;
+  border-radius: 8px;
+  padding: 3px;
+  background-color: black;
+  font-family: orbitron;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact-heading,
+.icons {
+  position: relative;
+  top: 530px;
+}
+
+.contact-heading {
+  left: 20px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.icons img {
+  margin: -3px 7px;
+}
+
+.icons {
+  right: 50px;
+}
